@@ -24,9 +24,9 @@ rl.question("Yaşınızı giriniz: ", (yasGirdi) => {
         let notDegeri = parseFloat(notGirdi);
 
         if (isNaN(notDegeri)) {
-            console.log("Lütfen geçerli bir sayı giriniz!");
+            console.log("Lütfen geçerli bir sayı giriniz !");
         } else if (notDegeri < 0 || notDegeri > 100) {
-            console.log("Hatalı giriş! Not 0 ile 100 arasında olmalıdır.");
+            console.log("Hatalı giriş!  Girilen not 0 ile 100 arasında olmalıdır.");
         } else if (notDegeri >= 50) {
             console.log(`Tebrikler! Notunuz: ${notDegeri}. Dersten GEÇTİNİZ.`);
         } else {
